@@ -2,26 +2,38 @@ package com.example.top10;
 
 public class items {
     private int mImage;
-    private String mText1;
-    private String mText2;
+    private String name;
+    private String cuisine;
+    private String location;
+    private String rating;
 
-    public items(int image, String text1, String text2){
-        mImage =  image;
-        mText1 = text1;
-        mText2 = text2;
+    public items(int image, String text1, String text2, String text3, String text4) {
+        mImage = image;
+        name = text1;
+        cuisine = text2;
+        location = text3;
+        rating = text4;
     }
 
-    public int getmImage(){
+    public int getmImage() {
         return mImage;
     }
 
 
-    public String getmText1(){
-        return mText1;
+    public String getName() {
+        return name;
     }
 
-    public String getmText2(){
-        return mText2;
+    public String getCuisine() {
+        return cuisine;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public String getRating() {
+        return rating;
     }
 
 
