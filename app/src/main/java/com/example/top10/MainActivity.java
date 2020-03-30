@@ -20,9 +20,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ArrayList<items> mList = new ArrayList<>();
-        mList.add(new items(R.drawable.ic_android,"Name","Cuisine","Locale","Rates"));
-        mList.add(new items(R.drawable.ic_android,"Nfame","Cuisfine","Localse","Ratfes"));
-        mList.add(new items(R.drawable.ic_android,"Namsse","Cuisisne","Locrale","Ratees"));
+        mList.add(new items(R.drawable.ic_android,"Barzaari","Middle Eastern","Marrickville","7/10"));
+        mList.add(new items(R.drawable.ic_android,"Ciao Down","Italian","Lindfield","7.5/10"));
+        mList.add(new items(R.drawable.ic_android,"Gogiya & Suliya Korean BBQ","Korean","Lidcombe","7.5/10"));
+        mList.add(new items(R.drawable.ic_android,"Thai Tucka Restaurant","Thai","Gordon","8/10"));
+        mList.add(new items(R.drawable.ic_android,"Chicken Licious","Lebanese","Rockdale","7/10"));
+        mList.add(new items(R.drawable.ic_android,"The Dolphin Hotel","Australian","Surry Hills","8/10"));
+        mList.add(new items(R.drawable.ic_android,"Beach Burrito Company","Mexican","Bondi Junction","8/10"));
+        mList.add(new items(R.drawable.ic_android,"Tokyo Syokudo","Japanese","Croydon","7.5/10"));
+        mList.add(new items(R.drawable.ic_android,"The Woods Cafe & Deli","Café","Earlwood","7/10"));
+        mList.add(new items(R.drawable.ic_android,"Hurstville Chinese Restaurant","Chinese","Hurstville","7/10"));
 
         mRecyclerView = findViewById(R.id.rView);
         mRecyclerView.setHasFixedSize(true);
